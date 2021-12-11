@@ -1,0 +1,33 @@
+{
+  "name": "english-for-kids",
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint src --fix"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "@typescript-eslt/parser": "^4.25.0",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-webpack-plugin": "^2.5.4",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.1",
+    "prettier": "^2.3.0",
+    "sass": "^1.35.1",
+    "sass-loader": "^11.1.1",
+    "ts-loader": "^9.2.2",
+    "typescript": "^4.3.2",
+    "typescript-eslint-parser": "^22.0.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^8.3.0"
+  }
+}

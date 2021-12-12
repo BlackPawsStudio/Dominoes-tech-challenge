@@ -1,15 +1,15 @@
-export type Die = number[];
+export type Dice = [number, number];
 
-export type Pile = Die[];
+export type Pile = Dice[];
 
 export interface Player {
   id: number;
-  dies: Die[];
+  dice: Dice[];
 }
 
 export interface Table {
-  allDetails: Die[];
-  available: () => Available
+  allDetails: Dice[];
+  availableNumbers: () => Available
 }
 
 export type Available = [number, number];

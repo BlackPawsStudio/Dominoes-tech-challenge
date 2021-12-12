@@ -18,8 +18,9 @@
   "ignorePatterns": ["*.config.js", "node_modules/", "dist/"],
   "rules": {
     "no-plusplus": "off",
-    "no-console": "warn",
-    "max-len": ["warn", { "code": 150 }],
+    "no-console": "off",
+    "no-alert": "off",
+    "max-len": ["off"],
     "indent": ["warn", 2, {
       "SwitchCase": 1
     }],

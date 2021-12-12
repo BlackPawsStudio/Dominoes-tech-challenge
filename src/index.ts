@@ -5,7 +5,7 @@ import { playerMove, fillPile } from './gameFunctions';
 
 const pile:Pile = fillPile();
 
-const playersAmount = 3;
+const playersAmount = 2;
 
 const players:Player[] = fillPlayers(playersAmount);
 

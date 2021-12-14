@@ -20,7 +20,7 @@ npm install
 
 3. Now you are able to run or build the project:
 
-Run `npm run build` or `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 To run the project go to the `dist/` directory and open `index.html` file.
 

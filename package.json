@@ -1,5 +1,5 @@
 {
-  "name": "english-for-kids",
+  "name": "dominoes-tech-challenge",
   "scripts": {
     "build": "webpack",
     "lint": "eslint src --fix"
